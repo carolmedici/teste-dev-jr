@@ -1,0 +1,26 @@
+.topBar{
+    display: flex;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 7px auto;
+    justify-content: space-around;
+    padding-left: 268px;
+    padding-right: 254px;
+ 
+    
+    &__img{
+        vertical-align: middle;
+        padding-right: 9px;
+    }
+
+    &__highlight{
+        color: var(--highlight-color);
+        font-weight: 600;
+    }
+
+    &__text{
+        color: var(--menu-text-color);
+        font-weight: 500;
+    }
+
+}

@@ -1,0 +1,35 @@
+.LogoAndSearchBar{
+   
+    margin: 0 61px 12px 86px;
+    display: flex;
+   
+    &__img{
+        margin: 7px 95px 0 56px;
+    }
+
+    &__input{
+        background-color: var(--input-color);
+        background-image: url("./MagnifyingGlass.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: 616.5px;
+        padding: 0 13.5px 0 24px;
+        width: 657px;
+        height: 48px;
+        border-radius: 10px;
+        border: none;
+        margin-top: 12px;
+        
+
+    }
+
+    &__input::placeholder {
+        color: var(--menu-text-color);
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    &__input:hover{
+        cursor: pointer;
+    }
+}
