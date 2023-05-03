@@ -12,6 +12,8 @@ box-sizing: border-box;
 --menu-text-color: #9F9F9F;
 --line-color: #F0F0F0;
 --input-color: #F6F5F2;
+--banner-color: white;
+--hover-button: black;
 
 /*fonts*/
 --font: 'Poppins', sans-serif;

@@ -1,5 +1,10 @@
 .middleMenu{
-    display: flex;
+    display: flex;  
+    margin: 0 auto 12px auto;
+}
+
+.line{
     border-top: 1px solid var(--line-color);
-    margin: 0 61px 12px 86px;
+    width: 1280px; 
+    margin: auto;
 }
