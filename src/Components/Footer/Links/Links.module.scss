@@ -1,7 +1,7 @@
 .Links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+   
 
     &__coluna{
         color: var(--banner-color);
@@ -53,6 +53,10 @@
             grid-gap: 20px;
         }
    
+        &__link:hover, &__link2:hover, &__logo:hover {
+            cursor: pointer;
+            color: var(--highlight-color);
+        }
   }
 
  

@@ -1,0 +1,39 @@
+.marcas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+
+    &__Imagens{
+        border-radius: 50%;
+    }
+}
+
+.img{
+    margin: 60px 40px ;
+    width: 211px;
+    height: 211px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.13);
+}
+
+.img:hover{
+    cursor: pointer;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.571);
+}
+
+.titulo{
+   color: var(--highlight-color);
+   margin: 155px auto 0 auto;
+   text-align: center;
+   font-size: 30px;
+   font-weight: 700;
+}
+
+
+
+  
+
+
+  
+ 

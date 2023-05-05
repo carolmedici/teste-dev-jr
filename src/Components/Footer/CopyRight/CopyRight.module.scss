@@ -3,6 +3,7 @@
     color: var(--banner-color) ;
     height: 70px; 
     display: flex;
+    
    
     p{
         margin-left: 93px;
@@ -11,11 +12,12 @@
         font-weight: 400;
         text-transform: uppercase;
         width: 698px;
+        margin-right: 326px;
     }
   
-    &__logos{
-        display: block;
-        gap: 20px;
+    img{
+       
+        margin-right: 32px;
     }
 
   
