@@ -1,0 +1,23 @@
+.copyRight{
+    background-color: var(--footer-color);
+    color: var(--banner-color) ;
+    height: 70px; 
+    display: flex;
+   
+    p{
+        margin-left: 93px;
+        text-align: left;
+        font-size: 10px;
+        font-weight: 400;
+        text-transform: uppercase;
+        width: 698px;
+    }
+  
+    &__logos{
+        display: block;
+        gap: 20px;
+    }
+
+  
+}
+

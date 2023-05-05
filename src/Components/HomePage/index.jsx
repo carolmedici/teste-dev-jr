@@ -1,6 +1,7 @@
 
 import Banner from "../Banner"
 import Categorias from "../Categorias"
+import Footer from "../Footer"
 import Header from "../Header"
 
 const HomePage = () =>{
@@ -10,6 +11,7 @@ const HomePage = () =>{
         <Header />
         <Banner />
         <Categorias />
+        <Footer />
         </>
     )
 }

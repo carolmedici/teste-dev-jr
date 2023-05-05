@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
 
 *{
 margin: 0;
@@ -15,6 +15,12 @@ box-sizing: border-box;
 --banner-color: white;
 --hover-button: black;
 --tags-background: #F4F4F4;
+--footer-color: #2A2A2A;
+--cadastro-texto-color: #3F3F40;
+--input-color: #C0C0C0;
+
+
+
 
 /*fonts*/
 --font: 'Poppins', sans-serif;

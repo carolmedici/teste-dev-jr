@@ -1,0 +1,9 @@
+.footer{
+    background-color: var(--footer-color);
+    color: var(--banner-color) ;
+    height: 325px; 
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-top: 169px;
+}

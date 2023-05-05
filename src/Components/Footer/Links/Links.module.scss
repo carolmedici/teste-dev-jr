@@ -1,0 +1,60 @@
+.Links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+
+    &__coluna{
+        color: var(--banner-color);
+      
+        
+       
+    }
+    
+    &__titulo1, &__titulo2, &__titulo3{
+        font-size: 13px;
+        font-weight: 700;
+        margin: 59px 0 24px 0;
+    }
+   
+    &__link, &__link2{
+        font-size: 12px;
+        font-weight: 300;
+        list-style: none;
+        line-height: 32px;
+    }
+
+    &__link{
+        margin-left: 96px;
+        
+    }
+
+    &__titulo1{
+        margin-left: 93px;
+    }
+
+    &__logo{
+       display: flex;
+       gap: 37px;
+       margin-top: 65px;
+       margin-left: 93px;
+    }
+
+        &__coluna2{
+            margin-left: 93px;
+        }
+
+        &__coluna3{
+            margin-left: 49px;
+        }
+
+        &__FormasPagamento{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+   
+  }
+
+ 
+  
+ 
