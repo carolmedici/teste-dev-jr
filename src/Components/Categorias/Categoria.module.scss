@@ -1,0 +1,43 @@
+.categorias{
+
+    &__Imagens {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 53px;
+
+}
+    
+    a {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+          
+      img {
+      
+        object-fit: cover;
+        padding: 34px;
+        box-shadow:  0 4px 11px rgba(0, 0, 0, 0.13);
+        border-radius: 10px;
+    }
+      
+      span {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 600;
+        text-align: center;
+        background-color: white;
+        padding: 22px 30px;
+      }
+    }
+
+  }
+
+  .categoriasInativa {
+      img {
+      background-color: var(--tags-background);
+    }
+  }
+
+ 

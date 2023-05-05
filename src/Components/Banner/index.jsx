@@ -1,5 +1,5 @@
 import style from "./Banner.module.scss"
-import bannerImg from "./banner.svg"
+
 
 const Banner = () =>{
     return(
