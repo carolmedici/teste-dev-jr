@@ -20,6 +20,11 @@
     &__oferta{
         color: var(--highlight-color);
     }
+
+    &__oferta:hover, &__li:hover{
+        color: var(--highlight-color);
+        cursor: pointer;
+    }
 }
 
 

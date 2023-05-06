@@ -7,13 +7,13 @@ const Menu = () =>{
     return(
         <>
         <ul className={style.Menu}>
-            <li>TODAS AS CATEGORIAS</li>
-            <li>SUPERMERCADO</li>
-            <li>LIVROS</li>
-            <li>MODA</li>
-            <li>LANÇAMENTOS</li>
+            <li className={style.Menu__li}>TODAS AS CATEGORIAS</li>
+            <li className={style.Menu__li}>SUPERMERCADO</li>
+            <li className={style.Menu__li}>LIVROS</li>
+            <li className={style.Menu__li}>MODA</li>
+            <li className={style.Menu__li}>LANÇAMENTOS</li>
             <li className={style.Menu__oferta}>OFERTAS DO DIA</li>
-            <li><img className={style.Menu__img} src={coroa} alt="Coroa respresentando Assinantes" /> ASSINATURA</li>
+            <li className={style.Menu__li}><img className={style.Menu__img} src={coroa} alt="Coroa respresentando Assinantes" /> ASSINATURA</li>
         </ul>
         
         </>

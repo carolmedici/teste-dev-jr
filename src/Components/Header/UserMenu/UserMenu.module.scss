@@ -1,4 +1,9 @@
 .UserMenu{
     display: flex;
     gap: 35.5px;
+
+    &__icone:hover{
+        cursor: pointer;
+       
+    }
 }
