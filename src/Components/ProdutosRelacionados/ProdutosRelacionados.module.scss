@@ -1,0 +1,215 @@
+.produtosStyle {   
+ 
+
+  
+    &__titulo {
+       color: var(--highlight-color);
+       font-size: 30px;
+       font-weight: 700;
+      text-align: center;
+      margin-top: 39px;
+     }
+ 
+   &__linha{
+     width: 360px;
+     border-color: var(--linha-color) ;
+     margin-left: 151px;
+     position: relative;
+     top: 3.5rem;
+   }
+ 
+   &__linha2{
+     width: 360px;
+     border-color: var(--linha-color) ;
+     position: relative;
+     right: -1005px;
+     top: -1.85rem;
+   }
+ 
+     &__cards {
+       list-style: none;
+       padding: 0;
+       display: flex;
+       width: 100%;
+       flex-wrap: wrap;
+     }
+   
+     &__card {
+       box-shadow: 3px 0 19px rgba(0, 0, 0, 0.22);
+       border-radius: 10px;
+       height: 500px;
+       width: 270px;
+       margin-right: 1rem;
+       margin-bottom: 1.35rem;
+       cursor: pointer;
+   
+   
+       &:hover {
+         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+         -moz-transform: scale(1.1);
+         -webkit-transform: scale(1.1);
+         transform: scale(1.025);
+         transition: 0.18s;
+       }
+        
+     }
+   
+   &__imagem{
+     margin-top: 32px;
+   }
+   
+     &__description {
+       text-align: left;
+       margin: 7px 14px 12px 11px;
+       font-size: 15px;
+       color: var(--cadastro-texto-color);
+       font-weight: 300;
+       
+     }
+ 
+     &__preco{
+         font-size: 16px;
+         font-weight: 400;
+         margin: 2px 159px 2px 11px;
+         text-align: left;
+         color: var(--preco-color);
+         text-decoration: line-through;
+         
+     }
+ 
+     &__promocao{
+         font-size: 20px;
+         font-weight: 700;
+         margin: 2px 159px 2px 11px;
+         text-align: left;
+         
+     }
+ 
+     &__parcelamento{
+         font-size: 12px;
+         font-weight: 400;
+         margin: 2px 79px 2px 11px;
+         text-align: left;
+ 
+     }
+     
+     &__frete{
+         font-size: 12px;
+         font-weight: 400;
+         margin: 2px 177px 2px 11px;
+         text-align: left;
+         color: var(--highlight-color);
+     }
+ 
+     &__button{
+         width: 245px;
+         height: 44px;
+         background-color: var(--highlight-color);
+         color: var(--banner-color);
+         border-radius: 4px;
+         border: none;
+         margin: 12px 14px 16px 11px;
+     }
+ 
+     &__button:hover{
+         background-color: var(--banner-color);
+         color: var(--highlight-color);
+         border: 1px dashed black;
+         cursor: pointer;
+     }
+ 
+     &__modal {
+         position: absolute;
+         top: 6rem;
+         left: 376px;
+         right: 319px;
+         bottom: 35px;
+         border: none;
+         background-color: white;
+         width: 769px;
+         height: 299.26px;
+         padding: 56px 51px 50px 56px;
+         font-family: var(--font-modal);
+       }
+       
+       &__modal-overlay {
+         position: fixed;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         background-color: rgba(0, 0, 0, 0.54);
+       }
+ 
+       &__modalFechar{
+         position: relative;
+         top: -52px;
+         left: 43rem;
+         background-color: white;
+         border: none;
+       }
+ 
+       &__modalProduto{
+         display: flex;
+       }
+ 
+       &__modalImagem{
+         margin: -31px 86px 49px 9px;
+         width: 247px;
+       }
+ 
+ 
+         &__modalInfo{
+         position: relative;
+         top: -77px;
+         
+         }
+ 
+         &__modalTitulo{
+           font-weight: 400;
+           font-size: 20px;
+           color: var(--modal-color);
+           text-align: left;
+           margin: 56px auto 21px auto;
+           
+           }
+ 
+         &__modalPreco{
+           font-weight: 900;
+           font-size: 20px;
+           color: var(--modal-color);
+           text-align: left;
+           position: relative;
+           left: -36px;
+           
+           }
+ 
+         &__modalDescricao{
+           color: var(--modal-descricao);
+           font-size: 10px;
+           font-weight: 400px;
+           text-align: left;
+           position: relative;
+           left: -36px;
+         }
+ 
+         &__modalDetalhes{
+           color: var(--modal-color);
+           font-size: 12px;
+          text-decoration: none;
+           font-weight: 400;
+           text-align: left;
+         }
+ 
+ 
+ 
+ 
+ 
+       
+   }
+ 
+   .slider{
+     margin-left: 20px;
+   }
+ 
+   
