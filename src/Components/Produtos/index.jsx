@@ -1,5 +1,5 @@
 import React from "react";
-import ProdutosTags from "./produtosTag";
+
 import Cards from "./Cards";
 import style from "./Produtos.module.scss";
 import produtos from "./produtos.json";
@@ -9,6 +9,7 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import ProdutosTags from "./produtosTag";
 
 const settings = {
     dots: false,
@@ -56,8 +57,7 @@ const Produtos = () => {
       
      <hr className={style.produtosStyle__linha}/> <h2 className={style.produtosStyle__titulo}>Produtos relacionados</h2> 
      <hr className={style.produtosStyle__linha2}/>
-     
-     <ProdutosTags produtosTags={produtosTags} ProdutosFilter={ProdutosFilter} />
+    <ProdutosTags produtosTags={produtosTags} ProdutosFilter={ProdutosFilter}/>
 
 
      <Slider className={style.produtosStyle} {...settings} >
