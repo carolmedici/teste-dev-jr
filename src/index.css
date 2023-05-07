@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&family=Poppins:wght@300;500;600;700;900&display=swap');
 
 *{
 margin: 0;
@@ -18,12 +18,20 @@ box-sizing: border-box;
 --footer-color: #2A2A2A;
 --cadastro-texto-color: #3F3F40;
 --input-color: #C0C0C0;
+--borda-produtosTag: #BDBDBD;
+--texto-produtosTag: #3B3B3B;
+--linha-color: #DEDEDE;
+--preco-color: #808080;
+--modal-color: #041E50;
+--modal-descricao: #222222;
+
 
 
 
 
 /*fonts*/
 --font: 'Poppins', sans-serif;
+--font-modal: 'Lato', sans-serif;
 }
 
 body{

@@ -1,16 +1,13 @@
 .marcas{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-
-    &__Imagens{
-        border-radius: 50%;
-    }
+    margin: 60px 116px 104px 109px;
+   
+    
+  
 }
 
-.img{
-    margin: 60px 40px ;
+.img{   
     width: 211px;
+    max-width: calc(100% - 40px);
     height: 211px;
     border-radius: 50%;
     padding: 20px;

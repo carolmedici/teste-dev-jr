@@ -76,7 +76,7 @@ const Marcas = () => {
   return (
     <>
       <h1 className={style.titulo}>Navegue por Marcas</h1>
-      <Slider {...settings} >
+      <Slider className={style.marcas} {...settings} >
         {marcas.map((marca) => (
           <div key={marca.tag} onClick={() => filtrarProdutos(marca.tag)}>
             <img className={style.img} src={marca.imagem} alt={`Imagem de ${marca.tag}`} />

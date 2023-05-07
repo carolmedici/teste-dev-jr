@@ -1,0 +1,24 @@
+.tags {
+   display: flex;
+   margin: 4px auto 17px auto;
+   justify-content: center;
+
+   button{
+    color: var(--texto-produtosTag);
+    width: 211.5px;
+    height: 40px;
+    border: 1px solid var(--borda-produtosTag);
+    background-color: white;
+   
+   }
+
+   button:hover{
+    color: var(--highlight-color);
+    cursor: pointer;
+    font-weight: 700;
+   }
+ 
+}
+    
+  
+    
